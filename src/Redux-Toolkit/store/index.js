@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
-import addressReducer from "../address.store";
-import counterReducer from "../counter.store";
+import addressReducer from "./address.store";
+import counterReducer from "./counter.store";
 
 export default configureStore({
   reducer: {
