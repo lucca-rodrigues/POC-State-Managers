@@ -12,7 +12,7 @@ export function Component() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Vite + React + Redux Toolkit</h1>
       <div className="card">
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
@@ -22,7 +22,7 @@ export function Component() {
       <button aria-label="Increment value" onClick={() => dispatch(increment())}>
         Aumentar +
       </button>
-      <span className="count-number">{count}</span>
+      <span>{count}</span>
       <button aria-label="Increment value" onClick={() => dispatch(decrement())}>
         Diminuir -
       </button>
