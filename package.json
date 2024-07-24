@@ -8,16 +8,19 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start:context-api": "vite --mode Context-API --config vite.config.js",
+    "start:context-api": "vite Context-API",
     "start:redux": "vite --mode Redux --config vite.config.js",
-    "start:redux-toolkit": "vite --mode Redux-Toolkit --config vite.config.js",
+    "start:redux-toolkit": "vite Redux-Toolkit/src/index.jsx",
     "start:zustand": "vite --mode Zustand --config vite.config.js",
     "start:jotai": "vite --mode Jotai --config vite.config.js",
     "start:react-query": "vite --mode React-query --config vite.config.js"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.2.6",
+    "axios": "^1.7.2",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
