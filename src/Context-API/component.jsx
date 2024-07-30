@@ -9,7 +9,7 @@ export function Component() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React + Redux Toolkit</h1>
+      <h1>Vite + React + Context API</h1>
       <div className="card">
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
