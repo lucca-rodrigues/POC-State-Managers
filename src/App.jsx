@@ -3,7 +3,8 @@ import "./App.css";
 // import { ReduxToolkit } from "./Redux-Toolkit";
 // import { Zustand } from "./Zustand";
 // import { Jotai } from "./Jotai";
-import { ContextAPI } from "./Context-API";
+// import { ContextAPI } from "./Context-API";
+import { ReactQuery } from "./React-query";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <ReduxToolkit /> */}
       {/* <Zustand /> */}
       {/* <Jotai /> */}
-      <ContextAPI />
+      {/* <ContextAPI /> */}
+      <ReactQuery />
     </>
   );
 }

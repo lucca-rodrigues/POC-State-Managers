@@ -1,0 +1,16 @@
+.movie-list-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px 0;
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+}
+
+.movie-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
