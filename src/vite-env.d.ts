@@ -1,10 +1,3 @@
-// /// <reference types="vite/client" />
-
-// declare module "virtual:generated-pages" {
-//   const routes: import("react-router-dom").RouteObject[];
-//   export default routes;
-// }
-
 /// <reference types="vite/client" />
 
 declare module "virtual:generated-pages" {
